@@ -29,9 +29,9 @@ public class AppContextListener implements ServletContextListener {
 	private void initDataSource() {
 		BasicDataSource dataSource = new BasicDataSource();
 		dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-		dataSource.setUrl("jdbc:mysql://localhost:3306/my_db");
-		dataSource.setUsername("root");
-		dataSource.setPassword("root");
+		dataSource.setUrl("jdbc:mysql://192.168.0.188/subking");
+		dataSource.setUsername("dc");
+		dataSource.setPassword("1234");
 
 		AppContextListener.dataSource = dataSource;
 	}

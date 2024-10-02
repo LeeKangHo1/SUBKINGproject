@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 페이지</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .signup-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: rgb(31, 147, 98);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #28a745; /* 버튼 호버 색상 */
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-container">
+        <h2>회원가입</h2>
+        <form id="signupForm">
+            <input type="text" id="username" placeholder="사용자 이름" required>
+            <input type="email" id="email" placeholder="이메일" required>
+            <input type="password" id="password" placeholder="비밀번호" required>
+            <button type="submit">회원가입</button>
+        </form>
+        <div id="message" style="color: red; text-align: center; margin-top: 10px;"></div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("signupForm").addEventListener("submit", function(event) {
+                event.preventDefault(); // 기본 제출 동작 방지
+
+                // 사용자 입력 가져오기
+                const username = document.getElementById("username").value;
+                const email = document.getElementById("email").value;
+                const password = document.getElementById("password").value;
+
+                // 유효성 검사
+                if (username.length < 2) {
+                    document.getElementById("message").innerText = "사용자 이름은 2글자 이상이어야 합니다.";
+                    return;
+                }
+                if (!/^[가-힣]+$/.test(username)) {
+                    document.getElementById("message").innerText = "사용자 이름은 한글로만 입력해야 합니다.";
+                    return;
+                }
+                if (password.length < 4) {
+                    document.getElementById("message").innerText = "비밀번호는 4글자 이상이어야 합니다.";
+                    return;
+                }
+                if (!/(?=.*[0-9])(?=.*[a-zA-Z]).{4,}/.test(password)) {
+                    document.getElementById("message").innerText = "비밀번호는 4글자 이상이고, 숫자와 알파벳을 포함해야 합니다.";
+                    return;
+                }
+                if (!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(email)) {
+                    document.getElementById("message").innerText = "유효한 이메일을 입력해야 합니다.";
+                    return;
+                }
+
+                // 회원가입 성공 메시지 표시
+                document.getElementById("message").innerText = "회원가입이 완료되었습니다!";
+                
+                // 입력 필드 초기화
+                document.getElementById("signupForm").reset();
+            });
+        });
+    </script>
+</body>
+</html>
