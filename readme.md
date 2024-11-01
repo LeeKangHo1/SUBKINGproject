@@ -1,6 +1,6 @@
-![subking logo 360](https://github.com/user-attachments/assets/86846a95-bc23-4335-a3a3-ce00c4e424d0)
+<center> ![subking logo 360](https://github.com/user-attachments/assets/86846a95-bc23-4335-a3a3-ce00c4e424d0) </center>
 
-## SUBKING PROJECT
+<center> ## SUBKING PROJECT </center>
 ---
 - #### Customize Your Burger!
 - 2024.10.01 ~ 10.14
