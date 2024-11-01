@@ -2,7 +2,7 @@
 
 ## SUBKING PROJECT
 ---
-- #### Customize Your Burger
+- #### Customize Your Burger!
 - 2024.10.01 ~ 10.14
 - Collaborators
 	- [송승현](https://github.com/seunghyeon22)
