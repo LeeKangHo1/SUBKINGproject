@@ -45,6 +45,3 @@
 	- fotor ai로 이미지 텍스트 수정
 - ![서브킹 매출 확인](https://github.com/user-attachments/assets/fb5e1d30-4f75-4351-b8f1-1022c4fb6de7)
 	- 관리자 아이디로 로그인할 경우 볼 수 있는 매출 기록
-
----
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=LeeKangHo1)](https://github.com/LeeKangHo1)
