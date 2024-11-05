@@ -33,7 +33,7 @@
  		![테이블 작성](https://github.com/user-attachments/assets/93538a2f-8c2e-49e2-8d75-d9d6f2c9e1ba)
 		
 		![ERD Entity Relationship Diagram](https://github.com/user-attachments/assets/91971e53-a6a1-4316-940f-96834ff87133)
-	- 레이아웃 (와이어프레임)
+	- 와이어프레임
 		
 		![서브킹 와이어 프레임](https://github.com/user-attachments/assets/348bfde9-a407-4338-98b3-035c753d4ec6)
 
