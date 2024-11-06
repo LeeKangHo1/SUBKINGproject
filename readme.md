@@ -22,12 +22,21 @@
 
 ---
 ## 목차
-### 1. 프로젝트 설계([이동](#프로젝트-설계-단계))
+## 1. 프로젝트 설계([이동](#1-프로젝트-설계-단계))
+- 필요한 기능 정리
+- 버거 재료 주문 진행 방식
+- 업무 분배
+- 테이블 설계
+- ERD(엔티티 관계 다이어그램)
+- 와이어프레임
+## 2. Program 주요 기능([이동](#2-Program-주요-기능))
 - 1234
-## 2. Program 주요 기능([이동](#Program-주요-기능))
-- 1234
-## 2. 담당 업무([이동](#담당-업무))
-- 1234
+- 서브킹 매출 확인
+## 3. 담당 업무([이동](#3-담당-업무))
+- 메인 화면
+- 회원의 주문 목록 조회
+- 회원가입
+- 로그인, 비밀번호 찾기(재설정)
 ---
 ## 1. 프로젝트 설계 단계
 - ### 필요한 기능 정리
@@ -60,7 +69,7 @@
 - 1234
 
 
-- ### 서브킹 매출 확인
+- ### 매출 확인(관리자 기능)
 
 	![서브킹 매출 확인](https://github.com/user-attachments/assets/0fef9cf5-cb62-4d07-a063-5dce4a16d0a4)
 
@@ -68,7 +77,13 @@
 
 ---
 ## 3. 담당 업무
-- ### 회원의 주문 목록 조회 기능
+- ### 메인 화면
+
+	![서브킹 메인 화면](https://github.com/user-attachments/assets/e5adb73a-a7aa-498f-b249-801f3a970c63)
+	- fotor ai로 이미지 안의 텍스트 수정
+	- 상단의 관리자 메뉴는 관리자 id로 로그인할 경우에만 노출
+
+- ### 회원의 주문 목록 조회
 	
 	![회원 주문 이력](https://github.com/user-attachments/assets/3b3bdfc9-bc9f-4917-ac0d-23e3f95f532c)
 
@@ -82,8 +97,14 @@
 	![회원가입2](https://github.com/user-attachments/assets/88ece3d1-b458-4a75-bb27-12ac2bf583c5)
 	- 실시간으로 유효값을 체크하고 사용자에게 알려준다.
 
-- ### 회원의 주문 목록 조회 기능
+- ### 로그인, 비밀번호 찾기(재설정)
 
-	![서브킹 메인 화면](https://github.com/user-attachments/assets/e5adb73a-a7aa-498f-b249-801f3a970c63)
-	- fotor ai로 이미지 안의 텍스트 수정
+	![로그인](https://github.com/user-attachments/assets/6328c9c2-603e-41e4-af1c-b3e03e013e41)
+
+	![비밀번호 찾기](https://github.com/user-attachments/assets/1e38a2f1-90b7-423e-bf36-afaad8a686da)
+
+	![비밀번호 재설정](https://github.com/user-attachments/assets/4493cd06-3417-4bc4-a7f0-fbf5d0c31e8b)
+
+	- 로그인, 로그아웃, 아이디 찾기, 비밀번호 찾기 **기능** 구현 
+
 
