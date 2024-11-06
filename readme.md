@@ -18,7 +18,9 @@
 	- [서동찬](https://github.com/Seodongchann)
 	- [박주용](https://github.com/cfyle)
 ---
- <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java" style="zoom: 1.5;" /> <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" style="zoom: 1.5;" /> <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" style="zoom: 1.5;" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" style="zoom: 1.5;" /> <img src="https://img.shields.io/badge/JSP-323330?style=for-the-badge&logo=java&logoColor=white" alt="JSP" style="zoom: 1.5;" /> <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white" alt="Eclipse" style="zoom: 1.5;" /> <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" style="zoom: 1.5;" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" style="zoom: 1.5;" /> <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white" alt="Maven" style="zoom: 1.5;" />  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" style="zoom: 1.5;" /> <img src="https://img.shields.io/badge/MyBatis-1565C0?style=for-the-badge&logo=mybatis&logoColor=white" alt="MyBatis" style="zoom: 1.5;" /> <img src="https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=apache-tomcat&logoColor=black" alt="Apache Tomcat" style="zoom: 1.5;" />
+ <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openJDK&logoColor=white" alt="Java" style="zoom: 1.5;" /> <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" style="zoom: 1.5;" /> <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" style="zoom: 1.5;" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" style="zoom: 1.5;" /> <img src="https://img.shields.io/badge/JSP-323330?style=for-the-badge&logo=java&logoColor=white" alt="JSP" style="zoom: 1.5;" /> <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white" alt="Eclipse" style="zoom: 1.5;" /> <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" style="zoom: 1.5;" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" style="zoom: 1.5;" /> <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white" alt="Maven" style="zoom: 1.5;" />  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" style="zoom: 1.5;" /> <img src="https://img.shields.io/badge/MyBatis-1565C0?style=for-the-badge&logo=mybatis&logoColor=white" alt="MyBatis" style="zoom: 1.5;" /> <img src="https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=apache-tomcat&logoColor=black" alt="Apache Tomcat" style="zoom: 1.5;" />
+ 
+![languages](https://github.com/user-attachments/assets/8c0ec81a-92b8-4626-8520-2097dad67851)
 
 ---
 ## 목차
@@ -70,23 +72,19 @@
 ## 2. Program 주요 기능
 - ### 커스텀 주문
 
-	![빵 주문하기](https://github.com/user-attachments/assets/e4657ce8-fb77-4cfb-b862-2c3c13beca13)
-
+	![](빵%20주문하기.jpg)
 	- 빵 -> 야채 -> 패티 -> 소스 -> 치즈 순으로 선택
 
 - ### 장바구니
 
-	![장바구니](https://github.com/user-attachments/assets/5f47838e-77b5-4651-8340-d28100d98c3d)
-
+	![](장바구니.jpg)
 	- 배달지역 변경 가능
 	- 주소기반산업지원서비스 홈페이지에서 제공하는 주소 API 활용
-	![도로명주소 API](https://github.com/user-attachments/assets/033875ca-c003-4577-a5b3-3b4a66e11230)
-
+	![](도로명주소%20API.jpg)
 
 - ### 결제
 	
-	![결제하기](https://github.com/user-attachments/assets/a5a695c3-7c90-42d7-9f35-79f56550d79a)
-
+	![](결제하기.jpg)
 	- 카카오 결제 API를 활용
 
 - ### 매출 확인(관리자 전용)
