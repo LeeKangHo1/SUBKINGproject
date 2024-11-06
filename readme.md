@@ -58,6 +58,14 @@
 ---
 ## 2. Program 주요 기능
 - 1234
+
+
+- ### 서브킹 매출 확인
+
+	![서브킹 매출 확인](https://github.com/user-attachments/assets/0fef9cf5-cb62-4d07-a063-5dce4a16d0a4)
+
+	- 관리자 아이디로 로그인할 경우 볼 수 있는 매출 기록
+
 ---
 ## 3. 담당 업무
 - ### 회원의 주문 목록 조회 기능
@@ -79,5 +87,3 @@
 	![서브킹 메인 화면](https://github.com/user-attachments/assets/e5adb73a-a7aa-498f-b249-801f3a970c63)
 	- fotor ai로 이미지 안의 텍스트 수정
 
-	![서브킹 매출 확인](https://github.com/user-attachments/assets/fb5e1d30-4f75-4351-b8f1-1022c4fb6de7)
-	- 관리자 아이디로 로그인할 경우 볼 수 있는 매출 기록
