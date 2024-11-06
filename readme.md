@@ -32,9 +32,10 @@
 - ERD(엔티티 관계 다이어그램)
 - 와이어프레임
 ## 2. Program 주요 기능([이동](#2-Program-주요-기능))
-- 커스텀 주문
+- 재료 선택 흐름
 - 장바구니
 - 결제
+- 칼로리 맞춤 버거 추천
 - 매출 확인(관리자 전용)
 ## 3. 담당 업무([이동](#3-담당-업무))
 - 메인 화면
@@ -50,7 +51,6 @@
 - ### 버거 재료 주문 진행 방식
 		
 	![커스텀 버거 주문 흐름도](https://github.com/user-attachments/assets/3e2e2230-60dd-4fe5-b589-692e245bb9d7)
-	- 커스텀 버거: 빵 -> 야채 -> 패티 -> 소스 -> 치즈 순으로 선택
 
 - ### 업무 분배
 		
@@ -70,21 +70,32 @@
 
 ---
 ## 2. Program 주요 기능
-- ### 커스텀 주문
+- ### 재료 선택 흐름
 
-	![](빵%20주문하기.jpg)
+	![커스텀 주문](https://github.com/user-attachments/assets/d9d8f4c1-14ca-47f1-97a4-16034b0fe888)
+
 	- 빵 -> 야채 -> 패티 -> 소스 -> 치즈 순으로 선택
+
+- ### 칼로리 맞춤 버거 추천
+
+	![칼로리 맞춤 버거](https://github.com/user-attachments/assets/d8ab3a52-c5f5-493b-b2b5-3d65815f1c79)
+
+	- 사용자가 입력한 열량(kcal)에 맞춘 햄버거 조합을 자동으로 추천하는 기능
 
 - ### 장바구니
 
-	![](장바구니.jpg)
+	![장바구니](https://github.com/user-attachments/assets/c4bf550e-6669-4c8c-be88-f346504fc01b)
+
 	- 배달지역 변경 가능
+
+	![도로명주소 API](https://github.com/user-attachments/assets/994eab69-a7ca-458c-8327-dc5ae42b5305)
+
 	- 주소기반산업지원서비스 홈페이지에서 제공하는 주소 API 활용
-	![](도로명주소%20API.jpg)
 
 - ### 결제
 	
-	![](결제하기.jpg)
+	![결제하기](https://github.com/user-attachments/assets/135c5b49-8987-4791-903d-f2314b238f2e)
+
 	- 카카오 결제 API를 활용
 
 - ### 매출 확인(관리자 전용)
@@ -106,7 +117,7 @@
 
 	
 	![주문 상세 내역](https://github.com/user-attachments/assets/c86596f7-9ca8-4ce2-aa0f-00c7fc822066)
-	- 장바구니에 담기 누르면 장바구니에 담아준다.
+	- 장바구니에 담기 버튼을 누르면 장바구니에 해당 햄버거 조합이 담긴다.
 
 - ### 회원가입
 	
@@ -122,6 +133,6 @@
 
 	![비밀번호 재설정](https://github.com/user-attachments/assets/4493cd06-3417-4bc4-a7f0-fbf5d0c31e8b)
 
-	- 로그인, 로그아웃, 아이디 찾기, 비밀번호 찾기 **기능** 구현 
+	- 로그인, 로그아웃, 아이디 찾기, 비밀번호 찾기 기능 구현 
 
 
