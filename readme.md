@@ -30,8 +30,10 @@
 - ERD(엔티티 관계 다이어그램)
 - 와이어프레임
 ## 2. Program 주요 기능([이동](#2-Program-주요-기능))
-- 1234
-- 서브킹 매출 확인
+- 커스텀 주문
+- 장바구니
+- 결제
+- 매출 확인(관리자 전용)
 ## 3. 담당 업무([이동](#3-담당-업무))
 - 메인 화면
 - 회원의 주문 목록 조회
@@ -66,13 +68,30 @@
 
 ---
 ## 2. Program 주요 기능
-- 1234
+- ### 커스텀 주문
+
+	![빵 주문하기](https://github.com/user-attachments/assets/e4657ce8-fb77-4cfb-b862-2c3c13beca13)
+
+	- 빵 -> 야채 -> 패티 -> 소스 -> 치즈 순으로 선택
+
+- ### 장바구니
+
+	![장바구니](https://github.com/user-attachments/assets/5f47838e-77b5-4651-8340-d28100d98c3d)
+
+	- 배달지역 변경 가능
+	- 주소기반산업지원서비스 홈페이지에서 제공하는 주소 API 활용
+	![도로명주소 API](https://github.com/user-attachments/assets/033875ca-c003-4577-a5b3-3b4a66e11230)
 
 
-- ### 매출 확인(관리자 기능)
+- ### 결제
+	
+	![결제하기](https://github.com/user-attachments/assets/a5a695c3-7c90-42d7-9f35-79f56550d79a)
+
+	- 카카오 결제 API를 활용
+
+- ### 매출 확인(관리자 전용)
 
 	![서브킹 매출 확인](https://github.com/user-attachments/assets/0fef9cf5-cb62-4d07-a063-5dce4a16d0a4)
-
 	- 관리자 아이디로 로그인할 경우 볼 수 있는 매출 기록
 
 ---
@@ -95,7 +114,7 @@
 	
 	![회원가입1](https://github.com/user-attachments/assets/ae296e76-b7fe-46a0-928c-8562e46cc962)
 	![회원가입2](https://github.com/user-attachments/assets/88ece3d1-b458-4a75-bb27-12ac2bf583c5)
-	- 실시간으로 유효값을 체크하고 사용자에게 알려준다.
+	- 실시간으로 유효값을 체크하고 경고문 출력
 
 - ### 로그인, 비밀번호 찾기(재설정)
 
