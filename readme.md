@@ -25,27 +25,25 @@
 ---
 ## 목차
 
-## 1. 프로젝트 설계([이동](#1-프로젝트-설계-단계))
+### 1. 담당 업무
+- 메인 화면
+- 칼로리 맞춤 버거 추천
+	- 알고리즘 구현
+- 회원의 주문 목록 조회
+- 회원 관련 기능
+	- 주소 API 적용
+### 2. 팀 공동 작업 (프로젝트 설계)
 - 필요한 기능 정리
 - 버거 재료 주문 진행 방식
-- 업무 분배
 - 테이블 설계
-- ERD(엔티티 관계 다이어그램)
+- ERD (엔티티 관계 다이어그램)
 - 와이어프레임
-## 2. Program 주요 기능([이동](#2-Program-주요-기능))
+### 3. 그 외 기능
 - 재료 선택 흐름
-- 칼로리 맞춤 버거 추천
 - 장바구니
 - 결제
 - 매출 확인(관리자 전용)
-## 3. 담당 업무([이동](#3-담당-업무))
-- 메인 화면
-- 회원의 주문 목록 조회
-- 회원가입
-- 로그인, 비밀번호 찾기(재설정)
 ---
-
-
 ## 1. 담당 업무
 - ### 1) 메인 화면
 
@@ -81,6 +79,7 @@
 	![회원가입2](https://github.com/user-attachments/assets/88ece3d1-b458-4a75-bb27-12ac2bf583c5)
 	- 회원 가입 기능
 	- JavaScript를 활용, 비동기 통신을 구현하여 실시간으로 유효값을 체크하고 경고문 출력
+
 	![도로명주소 API](https://github.com/user-attachments/assets/994eab69-a7ca-458c-8327-dc5ae42b5305)
 - #### 주소 API 적용
 	- 주소 설정 시 정확성 향상과 입력 시간 절약을 위해 사용자에게 익숙한 외부 웹 api를 사용
@@ -100,48 +99,48 @@
 
 ## 2. 팀 공동 작업 (프로젝트 설계)
 
-- #### 필요한 기능 정리
+- ### 필요한 기능 정리
 	
 	![서브킹 필요 기능 모음](https://github.com/user-attachments/assets/525f8d07-52b8-41cb-8419-60cd4808f5b7)
 		
-- #### 버거 재료 주문 진행 방식
+- ### 버거 재료 주문 진행 방식
 		
 	![커스텀 버거 주문 흐름도](https://github.com/user-attachments/assets/3e2e2230-60dd-4fe5-b589-692e245bb9d7)
 
-- #### 테이블 설계
+- ### 테이블 설계
  		
 	![테이블 작성](https://github.com/user-attachments/assets/93538a2f-8c2e-49e2-8d75-d9d6f2c9e1ba)
 
-- #### ERD (엔티티 관계 다이어그램)
+- ### ERD (엔티티 관계 다이어그램)
 		
 	![ERD Entity Relationship Diagram](https://github.com/user-attachments/assets/91971e53-a6a1-4316-940f-96834ff87133)
 
-- #### 와이어프레임
+- ### 와이어프레임
 		
 	![서브킹 와이어 프레임](https://github.com/user-attachments/assets/348bfde9-a407-4338-98b3-035c753d4ec6)
 
 ---
 ## 3. 그 외 기능
-- #### 재료 선택 흐름
+- ### 재료 선택 흐름
 
 	![커스텀 주문](https://github.com/user-attachments/assets/d9d8f4c1-14ca-47f1-97a4-16034b0fe888)
 
 	- 빵 -> 야채 -> 패티 -> 소스 -> 치즈 순으로 선택
 
-- #### 장바구니
+- ### 장바구니
 
 	![장바구니](https://github.com/user-attachments/assets/c4bf550e-6669-4c8c-be88-f346504fc01b)
 
 	- 배달지역 변경 가능
 
 
-- #### 결제
+- ### 결제
 	
 	![결제하기](https://github.com/user-attachments/assets/135c5b49-8987-4791-903d-f2314b238f2e)
 
 	- 카카오 결제 API를 활용
 
-- #### 매출 확인(관리자 전용)
+- ### 매출 확인(관리자 전용)
 
 	![서브킹 매출 확인](https://github.com/user-attachments/assets/0fef9cf5-cb62-4d07-a063-5dce4a16d0a4)
 	- 관리자 아이디로 로그인할 경우 볼 수 있는 매출 기록
