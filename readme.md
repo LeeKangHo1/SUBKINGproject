@@ -44,7 +44,7 @@
 - 결제
 - 매출 확인(관리자 전용)
 ---
-## 1. 담당 업무
+## 1. 담당 업무 및 문제 해결
 - ### 1) 메인 화면
 
 	![서브킹 메인 화면](https://github.com/user-attachments/assets/e5adb73a-a7aa-498f-b249-801f3a970c63)
